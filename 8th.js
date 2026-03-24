@@ -72,3 +72,23 @@ btn1.addEventListener("click",handler4);
 
 //node.removeEventListener(event,callback);
 btn1.removeEventListener("click",handler3);
+
+//practice ques
+
+
+let modebtn = document.querySelector("#themebtn");
+let currentMode = "light";
+
+const mode = ()=>{
+    if(currentMode === "light"){
+        document.querySelector("body").classList.add("dark");
+        document.querySelector("body").classList.remove("light");
+        currentMode = "dark";
+    }else{
+        document.querySelector("body").classList.add("light");
+        document.querySelector("body").classList.add("dark");
+        currentMode = "light";
+    }
+    console.log("current mode -",currentMode);
+};
+modebtn.addEventListener("click",mode);

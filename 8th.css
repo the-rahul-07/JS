@@ -5,3 +5,11 @@ div{
     background-color: dodgerblue;
     color: white;
 }
+.dark{
+    background-color: #1F2022;
+    color: whitesmoke;
+}
+.light{
+    background-color: whitesmoke ;
+    color: #1F2022;
+}
