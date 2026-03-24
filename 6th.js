@@ -43,7 +43,6 @@ console.dir(allEl);
 
 //nodes are of 3 types
 //text node/comment node/element nodes
-
 //firstChild/lastChild/children/ --> for navigation
 
 let a = document.body.querySelector("div").children 
@@ -54,13 +53,11 @@ console.log(a);
 //PROPERTIES OF DOM
 // a) tagName : returns tag for element Nodes
 //--> firstEl.tagName --> gives 'p'
-
 // b) innerText : returns the text content of all element and all its childrens
 // c) innerHtml : returns the plain text or HTML content in the element
 //this can also change content or HTML itself dynamicaly
 let div = document.querySelector("div");
 console.dir(div);
-
 // d) textContent : returns textual content even for hidden elements
 let h1=document.querySelector("h1");
 console.dir(h1);
