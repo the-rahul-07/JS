@@ -71,12 +71,21 @@ console.dir(h1);
 // students" to this text using js
 // to solve this we need to access our element first and thn use the property accordingly
 let h2 = document.querySelector("h2");
-console.dir(h2.innerText);
+console.dir(h2.innerText); 
 h2.innerText = h2.innerText + " from apna college students";
 console.dir(h2);
 
 //create 3 divs wiht common class name - 'box'. access them & add some unique text to each of them
-let accDiv = document.querySelector(".box");
-accDiv[0].innerText = "unique 1";
+let accDiv = document.querySelectorAll(".box");
+
+indx=0
+for(let i of accDiv)
+{
+    i.innerText = `unique ${indx+1}`;
+    indx++;
+}
+
+//begineers method
+// accDiv[0].innerText = "unique 1";
 // accDiv[1].innerText = "unique 2";
 // accDiv[2].innerText = "unique 3";

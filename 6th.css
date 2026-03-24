@@ -9,3 +9,16 @@ p{
 body{
     background-color: pink;
 }
+.box{
+    background-color: purple;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+}
