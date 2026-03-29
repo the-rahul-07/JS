@@ -24,7 +24,7 @@ const karan = {
     }
     //if object & prototype have same method, objects method will be used
 };
-karan.__proto__ = employ;
+karan.__proto__ = employ;   
 
 //class is a program code template for creating objects
 
